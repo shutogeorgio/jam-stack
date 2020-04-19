@@ -1,0 +1,23 @@
+{
+  "name": "implement_vol1",
+  "version": "1.0.0",
+  "description": "Implementing JAM Stack Application (JavaScript / APIs / Markup ) ### This module implemets basic of JAM Stack Application",
+  "main": "vibe.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shutogeorgio/jam-stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shutogeorgio/jam-stack/issues"
+  },
+  "homepage": "https://github.com/shutogeorgio/jam-stack#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
