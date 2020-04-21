@@ -1,13 +1,17 @@
 ---
-titie: About Page
+title: About this page for you
 layout: base.njk
 ---
 
 <div class="container">
-  <h1>This is About Page for you</h1>
-  <div>This page is made by HTML, CSS, Vanilla.js<div>
+  <h1>This page is really for you!</h1>
+  <p>It was made for you using HTML, CSS and JavaScript. And served as a JAMStack site.</p>
 </div>
 
+
 {% for item in news %}
-  <a href="/{{ item.country }}">{{ item.country }}</a>
-{% endfor %}
+  <a href="/{{ item.country}}">{{ item.country }}</a>
+{%  endfor %}
+
+
+
